@@ -48,15 +48,19 @@ function greet(person) {
   return `Hello, ${person}.`;
 }
 
-const name = "John";
+const user = 'John';
 
-const output = greet(name);
+const output = greet(user);
 
 console.log(output);
 ```
 
 ```
 tsc <file.ts>
+```
+
+```
+tsc ~/code/presentations/tsx/src/scratch/doc.ts
 ```
 
 ---
