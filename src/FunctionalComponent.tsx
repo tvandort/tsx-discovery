@@ -1,7 +1,15 @@
 import * as React from 'react';
 
-const FunctionalComponent = () => (
-  <div />
+export interface Props {
+  firstName: string;
+  lastName: string;
+  middleInitial?: string;
+}
+
+const FunctionalComponent = ({ firstName, lastName }: Props) => (
+  <div>
+    {firstName} {lastName}
+  </div>
 );
 
 export default FunctionalComponent;

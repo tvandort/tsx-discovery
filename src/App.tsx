@@ -8,8 +8,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <span />
-        <FunctionalComponent />
-        <StatefulComponent />
+        <FunctionalComponent firstName="John" lastName="Egbert" middleInitial="f" />
+        <StatefulComponent label="My Counter" />
       </div>
     );
   }
